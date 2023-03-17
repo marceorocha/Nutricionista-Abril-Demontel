@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/resumen.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="assets/logo3.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#imc">IMC</a>
+        <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+    </header>
+    <!--Post content -->
+    <section class="post-header post-page" id="home">
+      <div class="post-container header-content">
+        <!-- Voltar para o início -->
+        <a href="index.html" class="btn about-btn">Voltar</a>
+
+        <!-- Title -->
+        <h1 class="header-title-about">IMC</h1>
+        <!-- Post-image -->
+        <div class="header-content-img">
+          <img src="assets/imc.jpg" alt="foto de comida" class="about-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Descriction about -->
+
+    <section class="post-paragraph" id="imc">
+      <div class="post-container post-content" id="content">
+        
+        <h2 class="sub-heading">Calcule su IMC</h2>
+        <div class="card">
+          <div class="lineInput">
+            <label>Altura:</label>
+            <input
+              autofocus
+              type="number"
+              id="altura"
+              step="0.01"
+              placeholder="metros"
+            />
+          </div>
+          <div class="lineInput">
+            <div class="input">
+              <label>Peso:</label>
+              <input type="number" id="peso" step="0.1" placeholder="kg" />
+            </div>
+          </div>
+          <div class="button">
+            <button id="calcular">Calcular</button>
+          </div>
+          <div class="result-container">
+            <div class="result" id="resultado">Resultado:</div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br>
+
+<p>El índice de masa corporal (IMC) es una medida que se utiliza para evaluar si una persona tiene un peso saludable en relación con su altura. Si su IMC está fuera del rango saludable, hay algunas cosas que puede hacer para mejorarlo:
+
+  Aumente su actividad física: El ejercicio regular puede ayudar a quemar calorías y reducir la grasa corporal. Intente hacer al menos 30 minutos de actividad física moderada la mayoría de los días de la semana.
+  Cambie su dieta: Asegúrese de comer una dieta saludable y equilibrada con una variedad de alimentos nutritivos. Reduzca el consumo de alimentos procesados, altos en grasas saturadas y azúcares refinados.
+  Beba más agua: Beba suficiente agua para mantenerse hidratado y reducir el consumo de bebidas azucaradas.
+  Reduzca el consumo de alcohol: El alcohol es alto en calorías y puede contribuir a un aumento de peso. Reduzca su consumo o evítelo por completo.
+  Obtenga suficiente sueño: La falta de sueño puede afectar el peso corporal y el IMC. Asegúrese de dormir al menos 7-8 horas cada noche.
+  Recuerde que hacer cambios saludables en su estilo de vida puede llevar tiempo y paciencia. Consulte a un profesional de la salud si necesita ayuda para establecer objetivos realistas y seguros para su IMC.</p>
+    <!-- Footer Section Starts -->
+    <section class="footer" id="contact">
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+        <a href="#" class="fa-regular fa-envelope"></a>
+      </div>
+<br>
+<br>
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">sobre</a>
+      </div>
+
+     
+      <div class="credit">
+        <br>
+        Desarrollador: <span>Marcelo Rocha</span>
+      </div>
+      
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/imc.js"></script>
+    <!-- Footer Section ends -->
+  </body>
+</html>
